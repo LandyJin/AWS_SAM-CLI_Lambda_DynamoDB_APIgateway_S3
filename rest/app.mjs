@@ -14,7 +14,6 @@ export const FetchAllProducts = async (event, context) => {
         'body': JSON.stringify({
             products: products,
         })
-        
     }
 };
 export const CreateProducts = async (event, context) => {
